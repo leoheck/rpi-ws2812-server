@@ -1,0 +1,10 @@
+#channel 1 uses GPIO 1  (broadcom 18)
+setup 1,8,7,0,100,18
+init
+fill 1,FF000000
+brightness 1,0
+do
+   fade 1,0,255,10,1
+   fade 1,255,0,10,1
+   delay 200
+loop
