@@ -3,7 +3,7 @@ setup 1,4,5
 init
 do
   do
-    readpng 1,test_{1}.png
+    readpng 1,examples/test_{1}.png
     render
     delay 1000
   loop 2

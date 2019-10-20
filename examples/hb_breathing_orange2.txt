@@ -1,0 +1,21 @@
+setup 1,8,3
+init
+
+fill 1,ff3300,0,8 # orange
+
+fade 1,0,80,8
+render
+
+delay 800
+
+do
+    fade 1,80,10,8
+    render
+    fade 1,10,80,8
+    delay 800
+    render
+
+loop 3
+
+fade 1,80,0,8
+#fill 1,000000,0,8 # off

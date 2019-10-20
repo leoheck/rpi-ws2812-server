@@ -1,0 +1,10 @@
+setup 1,8,3
+init
+
+fill 1,ff3300,0,1 # orange
+
+do
+    rotate 1,1,0
+    render
+    delay 100
+loop

@@ -1,0 +1,8 @@
+#10 WS2812 leds on GPIO 18 (PWM0)
+#BB GG RR
+
+setup 1,8,3
+init
+fill 1,4bdc26
+brightness 1,20,0,8
+render
